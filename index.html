@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rate - Avaliações de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <h1>Game Rate</h1>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar jogos...">
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#" id="home-link">Início</a></li>
+                        <li><a href="#">Jogos</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#" id="profile-link">Perfil</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="user-actions">
+                    <button class="btn btn-outline">Entrar</button>
+                    <div class="user-profile">U</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Conteúdo Principal - Feed -->
+    <main class="container">
+        <div class="main-content" id="feed-content">
+            <div class="feed">
+                <h2 class="section-title">Avaliações da Semana</h2>
+                
+                <!-- Card de jogo 1 -->
+                <div class="game-card">
+                    <img src="imagens/Jogo Elden Ring.jpeg" alt="Jogo Elden Ring" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Elden Ring</h3>
+                        <p class="game-platform">PC, PlayStation 5, Xbox Series X/S</p>
+                        <p class="game-description">Um RPG de ação em mundo aberto desenvolvido pela FromSoftware em colaboração com George R. R. Martin, criador de "Game of Thrones". O jogo apresenta um vasto mundo de fantasia sombria para explorar.</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.6/10</span>
+                        </div>
+                        <button class="btn btn-primary">Avaliar</button>
+                    </div>
+                    <div class="user-review">
+                        <div class="user-avatar">M</div>
+                        <div class="review-content">
+                            <p class="user-name">Marcos Silva</p>
+                            <p class="review-text">Simplesmente o melhor jogo que já joguei! O mundo aberto é incrível e cheio de segredos. Os chefes são desafiadores e a trilha sonora é perfeita. Recomendo para quem curte jogos desafiadores.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card de jogo 2 -->
+                <div class="game-card">
+                    <img src="imagens/Jogo Baldur's Gate 3.jpeg" alt="Jogo Baldur's Gate 3" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Baldur's Gate 3</h3>
+                        <p class="game-platform">PC, PlayStation 5</p>
+                        <p class="game-description">Um RPG baseado no sistema Dungeons & Dragons que oferece uma história rica e profunda com muitas escolhas significativas e consequências. Desenvolvido pela Larian Studios.</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.8/10</span>
+                        </div>
+                        <button class="btn btn-primary">Avaliar</button>
+                    </div>
+                    <div class="user-review">
+                        <div class="user-avatar">A</div>
+                        <div class="review-content">
+                            <p class="user-name">Ana Costa</p>
+                            <p class="review-text">Um dos melhores RPGs que já joguei. As opções de diálogo são incríveis e cada escolha realmente importa. A história é envolvente e os personagens são muito bem desenvolvidos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card de jogo 3 -->
+                <div class="game-card">
+                    <img src="imagens/Jogo Horizon Forbidden West.png" alt="Jogo Horizon Forbidden West" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Horizon Forbidden West</h3>
+                        <p class="game-platform">PlayStation 5, PlayStation 4</p>
+                        <p class="game-description">Sequência do aclamado Horizon Zero Dawn, este jogo de ação e aventura acompanha Aloy em sua jornada pelo Oeste Proibido, uma região perigosa e misteriosa.</p>
+                        <div class="rating">
+                            <div class="stars">★★★★☆</div>
+                            <span class="rating-value">8.9/10</span>
+                        </div>
+                        <button class="btn btn-primary">Avaliar</button>
+                    </div>
+                    <div class="user-review">
+                        <div class="user-avatar">P</div>
+                        <div class="review-content">
+                            <p class="user-name">Pedro Oliveira</p>
+                            <p class="review-text">Os gráficos são de tirar o fôlego e o combate é muito divertido. A história é boa, mas não tão cativante quanto a do primeiro jogo. Ainda assim, vale muito a pena jogar!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Barra lateral com recomendações -->
+            <aside class="sidebar">
+                <h3 class="section-title">Jogos Recomendados</h3>
+                <ul class="recommended-list">
+                    <li class="recommended-item">
+                        <img src="imagens/The Witcher 3.jpeg" alt="The Witcher 3" class="recommended-image">
+                        <div class="recommended-info">
+                            <p class="recommended-title">The Witcher 3: Wild Hunt</p>
+                            <p class="recommended-platform">PC, PS5, Xbox Series X/S</p>
+                            <p class="recommended-rating">★★★★★ 9.7/10</p>
+                        </div>
+                    </li>
+                    <li class="recommended-item">
+                        <img src="imagens/God of War Ragnarok.jpeg" alt="God of War Ragnarok" class="recommended-image">
+                        <div class="recommended-info">
+                            <p class="recommended-title">God of War Ragnarok</p>
+                            <p class="recommended-platform">PS5, PS4</p>
+                            <p class="recommended-rating">★★★★★ 9.5/10</p>
+                        </div>
+                    </li>
+                    <li class="recommended-item">
+                        <img src="imagens/Zelda.jpeg" alt="Zelda: Tears of the Kingdom" class="recommended-image">
+                        <div class="recommended-info">
+                            <p class="recommended-title">The Legend of Zelda: Tears of the Kingdom</p>
+                            <p class="recommended-platform">Nintendo Switch</p>
+                            <p class="recommended-rating">★★★★★ 9.8/10</p>
+                        </div>
+                    </li>
+                    <li class="recommended-item">
+                        <img src="imagens/Cyberpunk 2077.jpeg" alt="Cyberpunk 2077" class="recommended-image">
+                        <div class="recommended-info">
+                            <p class="recommended-title">Cyberpunk 2077</p>
+                            <p class="recommended-platform">PC, PS5, Xbox Series X/S</p>
+                            <p class="recommended-rating">★★★★☆ 8.5/10</p>
+                        </div>
+                    </li>
+                    <li class="recommended-item">
+                        <img src="imagens/RedDead2.png" alt="Resident Evil 4 Remake" class="recommended-image">
+                        <div class="recommended-info">
+                            <p class="recommended-title">Resident Evil 4 Remake</p>
+                            <p class="recommended-platform">PC, PS5, Xbox Series X/S</p>
+                            <p class="recommended-rating">★★★★★ 9.2/10</p>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        
+        <!-- Conteúdo do Perfil (inicialmente oculto) -->
+        <div class="profile" id="profile-content">
+            <div class="profile-header">
+                <div class="profile-avatar">U</div>
+                <div class="profile-info">
+                    <h2>Usuário GameRate</h2>
+                    <p>Membro desde Maio 2025</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-value">42</span>
+                            <p>Avaliações</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">128</span>
+                            <p>Jogos na coleção</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">18</span>
+                            <p>Seguidores</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline">Editar Perfil</button>
+                </div>
+            </div>
+            
+            <div class="profile-tabs">
+                <div class="tab active">Minhas Avaliações</div>
+                <div class="tab">Coleção</div>
+                <div class="tab">Estatísticas</div>
+            </div>
+            
+            <div class="user-reviews">
+                <!-- Avaliação 1 -->
+                <div class="game-card">
+                    <img src="imagens/finalFantasy.jpeg" alt="Final Fantasy VII Remake" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Final Fantasy VII Remake</h3>
+                        <p class="game-platform">PlayStation 5, PlayStation 4, PC</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.4/10</span>
+                        </div>
+                        <p class="game-description">Sua avaliação: "Uma obra-prima moderna que faz justiça ao clássico original. O combate é dinâmico e os personagens são carismáticos. A história foi expandida de forma inteligente."</p>
+                    </div>
+                </div>
+                
+                <!-- Avaliação 2 -->
+                <div class="game-card">
+                    <img src="imagens/Hades.jpeg" alt="Hades" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Hades</h3>
+                        <p class="game-platform">PC, Nintendo Switch, PlayStation, Xbox</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.7/10</span>
+                        </div>
+                        <p class="game-description">Sua avaliação: "Um roguelike perfeito. A narrativa se integra com a mecânica de maneira genial. Arte, música e jogabilidade são impecáveis."</p>
+                    </div>
+                </div>
+                
+                <!-- Avaliação 3 -->
+                <div class="game-card">
+                    <img src="imagens/RedDead2.png" alt="Red Dead Redemption 2" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Red Dead Redemption 2</h3>
+                        <p class="game-platform">PC, PlayStation, Xbox</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.8/10</span>
+                        </div>
+                        <p class="game-description">Sua avaliação: "Um dos melhores mundos abertos já criados. A história de Arthur Morgan é emocionante e o nível de detalhe é impressionante. Uma obra-prima."</p>
+                    </div>
+                </div>
+                
+                <!-- Avaliação 4 -->
+                <div class="game-card">
+                    <img src="imagens/HollowKnight.jpeg" alt="Hollow Knight" class="game-image">
+                    <div class="game-info">
+                        <h3 class="game-title">Hollow Knight</h3>
+                        <p class="game-platform">PC, Nintendo Switch, PlayStation, Xbox</p>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-value">9.5/10</span>
+                        </div>
+                        <p class="game-description">Sua avaliação: "Um metroidvania perfeito. A direção artística é deslumbrante e a exploração é recompensadora. Os chefes são desafiadores e memoráveis."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Sobre</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Contato</a>
+            </div>
+            <p>&copy; 2025 Game Rate. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Script simples para alternar entre Feed e Perfil
+        document.addEventListener('DOMContentLoaded', function() {
+            const feedContent = document.getElementById('feed-content');
+            const profileContent = document.getElementById('profile-content');
+            const homeLink = document.getElementById('home-link');
+            const profileLink = document.getElementById('profile-link');
+            
+            homeLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                feedContent.style.display = 'flex';
+                profileContent.style.display = 'none';
+            });
+            
+            profileLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                feedContent.style.display = 'none';
+                profileContent.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
